@@ -1,0 +1,31 @@
+body{
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-size: $default-font-size;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+.heading-primary{
+    z-index: 1;
+    font-weight: 500;
+    font-size: 8rem;
+}
+
+.heading-primary--sub{ 
+    font-size: 2.2rem;
+  
+    
+}
+
+.section-heading{
+    font-size: 3rem;
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.about__text{
+    line-height: 1.8;
+   
+}
+

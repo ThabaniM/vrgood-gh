@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="navigation__box"> <!-- just a placeholder no css besides default, envelops nav item 
+        which has no position on page because its position was set to fixed-->
+        <nav class="navigation">
+            
+            <img src="img\trademark-symbol-icon-vector-illustration-nc.webp" alt="logo" class="navigation__logo">
+            <ul class="navigation__u-list">
+                <li class="navigation__item"><a class="active navigation__link" href="">Home</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="">About</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="">Services</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="">Contact Us</a></li>
+            </ul>
+            <a class="navigation__btn btn u-center-text">Call</a>
+            
+        </nav>
+    </div>
+    <div class="header">   
+        <header class="header__masthead">
+            <h1 class="heading-primary u-center-text">   
+                Affordable Web Design
+            </h1>
+            <h3 class="heading-primary--sub u-center-text">Get a quality website done for you at a reasonable price</h3>
+        </header>
+        <div class="button-box u-center-text">
+            <a class="header__btn btn u-margin-top-medium">Contact Us</a>
+        </div>
+   </div>
+   <div class="about">
+       <h2 class="heading-about section-heading">About Us</h2>
+       <div class="about__flex u-margin-bottom-big">
+            <div class="profile-image u-center-text">
+                <img src="img\pie-chart-screen.jpg" alt="" class="about__image">
+            </div>
+            <div class="about__text-box">
+                <h3 class="heading-about-text u-margin-bottom-medium u-margin-top-medium">We are Durban based company but the actual location of our clients doesn't matter as we bring the same successful principles into every new project</h3> 
+                <p class="about__text">Almost everyone has a cousin that can make a website, but let's get real a site on it's own is not enough. We at VR Good understand that it's all about what results and solutions the website can bring to you. We use various digital marketing skills such as search engine optimization to get your sight seen by more people and get you the results you want.
+                </p>
+            </div>
+        </div>  
+   </div>
+   <div class="services">
+       <h2 class="heading-services section-heading">Services</h2>
+       <div class="services__container u-center-text">
+            <div class="services__box">
+                <div class="services__img-box">
+                    <img src="img\css3.png" alt="" class="services__img services__img--css"> 
+                </div>
+                <ul class="services-list">
+                    <li>Basic website</li>
+                    <li>Plain HTML and CSS</li>
+                    <li>Edit existing sites</li>
+                    <li>Good for small businesses that prefer no blog</li>
+                </ul>
+            </div>
+            <div class="services__box services__box--2"> 
+                <div class="services__img-box">
+                    <img src="img\wordpress.svg" alt="" class="services__img services__img--wp"> 
+                </div>
+                <ul class="services-list">
+                    <li>Wordpress Websites</li>
+                    <li>Edit existing sites</li>
+                    <li>Fix minor bugs</li>
+                    <li>Build use pagebuilder or Gutenburg</li>
+                    <li>Perfect for blogs which greatly help search ranking</li>
+                </ul>  
+            </div>
+            <div class="services__box">
+                <div class="services__img-box">
+                    <img src="img\seo-scrabble.jpg" alt="" class="services__img services__img--seo">
+                </div>
+                <ul class="services-list">
+                    <li>Basic Search Engine Optimization</li>
+                    <li>Keyword Research</li>
+                    <li>Meta tags and content optimization</li>
+                    <li>Increase Page Speed</li>
+                </ul>
+            </div>
+       </div>
+    </div>
+    <!--
+    <div class="contact__container">
+        <div class="form">
+            <form action="https://formsubmit.co/vrgood-support@protonmail.com" method="POST">
+        
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." class="form__text">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="form__text">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email.." class="form__text">
+            
+                <label for="message">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." class="form__text form__text--large"></textarea>
+            
+                <input type="submit" value="Submit" class="form__submit">
+        
+            </form>
+        </div>
+        <div class="contact__text">
+            <h2 class="contact__header">Contact us</h2>
+            <p class="contact__para">vrgood-support@protonmail.com</p>
+            <p class="contact__para">0813657527</p>
+        </div>
+    </div>
+--> 
+    <div class="map">
+        <div class="map__container">
+            <div id="map" class="map__content" style="width:100%;height:400px;"></div>
+        </div> 
+    </div>
+    <div class="footer">
+        
+    </div>
+
+   <script src="js/map.js"></script>
+   <script async defer
+   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi8RWAUQbca-fqSL2Ry08r6gMZKH9rQ-s&callback=initMap">
+   </script>  
+</body>
+</html>

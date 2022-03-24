@@ -1,0 +1,232 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black; }
+
+.heading-primary {
+  z-index: 1;
+  font-weight: 500;
+  font-size: 8rem; }
+
+.heading-primary--sub {
+  font-size: 2.2rem; }
+
+.section-heading {
+  font-size: 3rem;
+  margin: 4rem 0;
+  text-align: center; }
+
+.about__text {
+  line-height: 1.8; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-align-right {
+  text-align: right; }
+
+.u-align-left {
+  text-align: left; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
+.u-margin-top-small {
+  margin-top: 1.5rem; }
+
+.u-margin-top-medium {
+  margin-top: 4rem; }
+
+.u-margin-top-big {
+  margin-top: 8rem; }
+
+.filler {
+  background-color: #f7f7f7;
+  height: 3rem; }
+
+.btn {
+  min-height: 4rem;
+  background-color: #fd8700;
+  border-radius: 1rem;
+  background-color: #fd8700;
+  color: white;
+  font-size: 1.5rem;
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+  box-shadow: 0.3rem 0.6rem #243359;
+  min-width: 15rem;
+  margin-right: 1.5rem; }
+  .btn--green {
+    background-color: green; }
+
+a.btn:hover {
+  color: white;
+  background-color: #ff9f31; }
+
+/* Add a background color and some padding around the form */
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+  /* Style the submit button with a specific background color etc */ }
+  .form__text {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical; }
+  .form__text--large {
+    min-height: 20rem; }
+  .form__submit {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; }
+    .form__submit:hover {
+      background-color: #45a049; }
+
+.profile-image {
+  width: 50%; }
+  .profile-image .about__image {
+    margin: auto;
+    width: 75%;
+    min-height: 50rem;
+    border-radius: 2rem; }
+
+.services__img-box {
+  min-height: 10rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid black;
+  padding: 1rem 0; }
+
+.services-list {
+  list-style-type: none;
+  color: black; }
+  .services-list li {
+    padding: 0.5rem;
+    color: black; }
+
+.header {
+  background-image: linear-gradient(to right, rgba(158, 181, 239, 0.8), rgba(36, 51, 89, 0.8)), url(../img/lady-laptop-onehand.jpg);
+  background-size: cover;
+  height: 98vh;
+  color: white; }
+  .header__masthead {
+    padding-top: 18rem; }
+
+.navigation {
+  display: flex;
+  background: #333399;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15rem 0 7rem;
+  position: fixed;
+  top: 0;
+  margin-bottom: 0.001px;
+  width: 100%; }
+  .navigation__logo {
+    margin: 0;
+    max-width: 6rem; }
+  .navigation__u-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style-type: none; }
+  .navigation__item {
+    float: left; }
+  .navigation__link {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white; }
+    .navigation__link:hover {
+      background-color: #9EB5EF; }
+
+.contact-details {
+  display: block;
+  width: 100%;
+  z-index: 3000; }
+
+.about {
+  width: 100%;
+  max-height: 90vh; }
+  .about .about__flex {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%; }
+  .about .about__text-box {
+    width: 50%;
+    padding: 0 2rem; }
+
+.services {
+  background-image: linear-gradient(to right, rgba(158, 181, 239, 0.8), rgba(36, 51, 89, 0.8)), url(../img/lady-laptop-onehand.jpg);
+  height: 90vh;
+  width: 100%;
+  padding-top: 2rem; }
+  .services__container {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 2rem;
+    flex-flow: row wrap;
+    margin: 0 6rem; }
+  .services__box {
+    border: 1px solid black;
+    flex: 1 0 20rem;
+    padding-bottom: 8rem;
+    background-color: #fff2e4;
+    margin-top: 3rem; }
+  .services__img--css {
+    max-width: 15%;
+    border: 1px solid white;
+    border-radius: 2rem; }
+  .services__img--wp {
+    max-width: 17%;
+    border: 1px solid white;
+    border-radius: 2rem; }
+  .services__img--seo {
+    max-width: 24%;
+    border: 1px solid white;
+    border-radius: 2rem; }
+
+.contact__container {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 0 20rem;
+  width: 100%; }
+  .contact__container .contact__text {
+    width: 50%; }
