@@ -141,6 +141,12 @@ a.btn:hover {
     padding: 0.5rem;
     color: black; }
 
+.footer {
+  background-color: #333399;
+  height: 10vh;
+  color: white;
+  padding: 2rem; }
+
 .header {
   background-image: linear-gradient(to right, rgba(158, 181, 239, 0.8), rgba(36, 51, 89, 0.8)), url(../img/lady-laptop-onehand.jpg);
   background-size: cover;
