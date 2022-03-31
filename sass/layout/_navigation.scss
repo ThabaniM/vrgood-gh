@@ -1,5 +1,6 @@
 .navigation{
     display: flex;
+    flex-flow: row wrap;
     background: $color-primary;
     justify-content: space-between;
     align-items: center;
@@ -8,14 +9,18 @@
     top: 0;
     margin-bottom: 0.001px;
     width: 100%;
+    z-index: 100;
 
     &__logo{
         margin: 0;
         max-width: 6rem;
-       
+        flex: 1 1 2rem;
+        
+            
     }
 
     &__u-list{ //ul
+      flex: 1 1 0;
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
@@ -23,9 +28,10 @@
    
     }
 
+
+
     &__item{  // li
-        
-        //display: inline;
+    
         float: left;
         
     }
@@ -40,6 +46,10 @@
              background-color: $color-primary-light;
          }
          
+     }
+
+     &__btn{
+        flex: 0 3 2rem;
      }
 
     

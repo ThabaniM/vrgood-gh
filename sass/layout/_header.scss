@@ -2,7 +2,7 @@
     //margin-top: 6rem; 
     background-image: linear-gradient(to right,rgba($color-primary-light,0.8), rgba($color-primary-dark,0.8)), url(../img/lady-laptop-onehand.jpg);
     background-size: cover;
-    height: 98vh;
+    min-height: 98vh;
     color: $color-primary-text;
     &__masthead{
         padding-top: 18rem;

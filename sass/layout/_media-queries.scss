@@ -1,0 +1,25 @@
+@media screen and (max-width: 900px){
+    img.services__img{
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 625px){
+    img.services__img--seo{
+        max-width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 660px) {
+    .heading-primary{
+        font-size: 5rem
+    }
+
+        
+    .heading-primary--sub{ 
+        font-size: 1.5rem;
+        //ffs work!
+        
+    }
+}
